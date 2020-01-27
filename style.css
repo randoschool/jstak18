@@ -42,15 +42,19 @@ body{
 
 .answer{
     display: flex;
-    justify-content: center;
+    justify-content: flex-end;
     align-items: center;
     font-size: 42px;
     margin-bottom: 5px;
     background-color: indianred;
-    padding: .5rem 0;
+    padding: .5rem;
     border: none;
     border-radius: 6px;
     height: 4rem;
+}
+
+.btn.active {
+    background-color: cornflowerblue;
 }
 
 input{
